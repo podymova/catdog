@@ -1,0 +1,30 @@
+setup: &setup
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *setup
+  database: catdog_development
+  username: postgres
+  password: 1q2w3e
+  host: 127.0.0.1
+
+test:
+  <<: *setup
+  database: catdog_test
+  username: postgres
+  password: 1q2w3e
+  host: 127.0.0.1
+
+staging:
+  <<: *setup
+  database: catdog_staging
+  username: root
+  password: gtgzrf
+
+production:
+  <<: *setup
+  database: catdog_production
+  username: root
+  password: gtgzrf

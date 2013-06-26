@@ -1,0 +1,330 @@
+html {
+	height: 100%;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	font-family: Tahoma, Arial;
+	color: #666666;
+
+	height: 100%;
+    min-width: 1124px;
+    background: url(../body_bg1.png);
+}
+
+
+:focus 	{ outline: 0; }
+
+table	{ border-collapse:collapse; }
+td		{ font-family:Tahoma; color:#505050; padding:0;}
+form		{ padding:0; margin:0; }
+
+div.content-list h1 {font-size: 20px; color: #ff4900; font-weight: normal;}
+h1 {font-size: 20px; color: #ff4900; font-weight: normal;}
+h2 {font-size: 16px; color: rgb(138, 175, 41); font-weight: bold;}
+h3 {font-size: 12px; color: rgb(138, 175, 41); font-weight: normal;}
+
+h4		{ font-size:110%; margin:20px 0 10px 0; color: #000;line-height: 100%;}
+h5		{ font-size:100%; margin:10px 0 6px 0;color: #000;line-height: 100%;}
+
+
+p		{ margin:0 0 12px 0; line-height: 18px;}
+img		{ border:0; }
+ul		{ margin:0; padding:0; list-style:none; }
+
+
+
+
+
+#wrap {
+    border: 0 none;
+    margin: 0 auto;
+    text-align: left;
+    overflow:hidden;
+}
+
+
+#page-container {
+    background: url(../container_bg.png) repeat-y center top;
+    position: relative;
+    width: 1124px;
+    height:auto;
+    margin: 0 auto;
+    text-align: left;
+    float: none;
+    bottom:0;
+}
+
+#container {
+    min-height: 500px;
+    height:auto;
+    padding:40px;
+}
+
+
+/*  HEADER STYLE -------------------------------------------------------------------------------------------------------*/
+
+
+#header {
+	background: url(../header_bg.png) no-repeat center top;
+    height: 250px;
+    padding: 20px 0 0 0;
+}
+
+#header1 {
+    position: relative;
+    width:1090px;
+    margin: 0 auto;
+    float:none;
+}
+
+
+#header-content {
+    position: relative;
+    width:1090px;
+    height:175px;
+    margin: 0 auto;
+    float:none;
+}
+
+
+.logo {
+    width: 234px;
+    height: 168px;
+    background: url(../logo_bad.png) no-repeat center;
+    background-size: 100% 100%;
+    margin: 2px 0 0 30px;
+    float:left;
+    display:inline;
+}
+
+.main-info {
+    float: right;
+    margin: 5px 8px 0 0;
+}
+
+
+.navigation-top{
+    width:100%;
+    height:35px;
+    position:relative;
+}
+
+
+.navigation-top ul li{
+    display:inline;
+    float:left;
+    padding: 5px 5px 5px 5px;
+    margin: 0 5px 0 5px;
+    text-transform:uppercase;
+}
+
+
+.navigation-top ul li:hover{
+    border:1px solid #b4b3b3;
+    border-radius:6px;
+    background:#e7e7e7;
+}
+
+
+.navigation-top ul li a{
+    font-size:14px;
+    text-decoration:none;
+    color:#666666;
+}
+
+
+
+.header-content1 {
+    width: 776px;
+    height: 118px;
+    padding: 0 0 0 10px;
+}
+
+
+.header-content1 .basket{
+    width: 27%;
+    height: 80%;
+    float: right;
+    background: url(../basket.png) no-repeat center top;
+    margin-right: 91px;
+    margin-top: 26px;
+}
+
+.header-content1 .basket .basket-info{
+    width:100%;
+    height:32px;
+    background: url(../basket_bottom.png) no-repeat center;
+    margin: 51px 0 0 -6px;
+}
+
+.header-content1 .company-info{
+    width:58%;
+    height:100%;
+    float:left;
+}
+
+
+.header-content1 .company-info .info{
+    width: 100%;
+    height: 66px;
+    text-align: right;
+    margin: 18px 0 0 0;
+    font-family: Arial;
+    font-weight: 600;
+    color: #454a4f;
+}
+
+
+.header-content1 .company-info .info .big{
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+
+.header-content1 .company-info .info .small{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 7px 0 0 0;
+}
+
+
+.header-content1 .company-info input {
+    border: 3px solid #9b9a9a;
+    border-radius: 7px;
+    height: 23px;
+    font-size: 14px;
+    padding: 3px;
+    width: 366px;
+    float: right;
+    margin: 0 2px 0 0;
+}
+
+
+.header-content1 .company-info a.search-button {
+    width: 40px;
+    height: 32px;
+    float: right;
+    margin: 0 -377px 0 0;
+    background: url(../lupe.png) no-repeat center;
+}
+
+
+/*  HEADER STYLE -------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* FOOTER STYLE --------------------------------------------------------------------------------------------------------*/
+
+#footer {
+
+    /*margin-top:-277px;*/
+    position:relative;
+    width:100%;
+    height:auto;
+    left:0;
+    float: left;
+}
+
+
+#footer-content {
+    background-color: #f1f2f3;
+    border-top: 1px solid #ddd;
+    border-bottom:1px dotted #b3b3b3;
+    height: 275px;
+}
+
+#footer1 {
+    width:1124px;
+}
+
+#footer-bottom {
+    background: url(../footer_bg1.png) no-repeat center bottom;
+    height:60px;
+}
+
+.copyright {
+    /*margin: 10px 0 0 0;*/
+}
+
+
+/* FOOTER STYLE --------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* CARUSEL -------------------------------------------------------------------------------------------------------------*/
+
+#carusel {
+    background: url(../carusel_bg.png) center top repeat-x;
+    margin: -5px auto;
+    position: relative;
+    width:100%;
+    height:430px;
+    text-align: left;
+    float: none;
+    z-index:500;
+    padding:20px 0 0 0;
+    border-bottom: 1px dotted #d3d3d3;
+}
+
+.carusel1 {
+    position: relative;
+    width:1090px;
+    height:410px;
+    margin: 0 auto;
+    float:none;
+    border:1px solid #d5cccc;
+}
+
+
+.carusel1 img {
+    height: inherit;
+    width:inherit;
+}
+
+
+
+/* PAGE CONTENT --------------------------------------------------------------------------------------------------------*/
+
+.banners {
+    width:100%;
+    height:220px;
+    position:relative;
+    margin: 0 0 30px 0;
+    background:url(../divider_big.png) center bottom no-repeat;
+}
+
+.banners ul{
+    display:inline;
+}
+
+.banners ul li{
+    float:left;
+    margin: 0 0 0 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

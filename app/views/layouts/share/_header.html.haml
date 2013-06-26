@@ -1,0 +1,24 @@
+#header-content
+  = link_to '', root_path, :class => 'logo'
+  .main-info
+    .navigation-top
+      %ul
+        %li= link_to 'Новости', '#'
+        %li= link_to 'Магазины', '#'
+        %li= link_to 'Бренды', '#'
+        %li= link_to 'Доставка', '#'
+        %li= link_to 'Оплата', '#'
+        %li= link_to 'Контакты', '#'
+        %li= link_to 'О компании', '#'
+        %li= link_to 'Помощь', '#'
+    .header-content1
+      .company-info
+        .info
+          .big= '+7(927)273-01-61'
+          .small= 'Ежедневно: 9:00 - 18:00'
+        .search
+          = form_for :session, :url => '#', :html => {:id => 'search-form'} do |f|
+            = text_field_tag 'search', nil, :placeholder => 'Введите текст для поиска...'
+            = link_to '', '#', :class => 'search-button', :onclick => '$("#search-form").submit();'
+      .basket
+        .basket-info

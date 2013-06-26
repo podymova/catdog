@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="RailsFacetType" name="Ruby on Rails">
+      <configuration>
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_SUPPORT_REMOVED" VALUE="false" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_TESTS_SOURCES_PATCHED" VALUE="true" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="GemRequirementsHolder" version="3">
+    <requirement>
+      <requirement>
+        <dependency name="airbrake" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="bcrypt-ruby" version="0" bound="GREATER_OR_EQUAL" lib="bcrypt" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="breadcrumbs_on_rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="carrierwave" version="0.5.4" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="chosen-rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="ckeditor" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="client_side_validations" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="cocoon" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="coffee-rails" version="3.2.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="execjs" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="factory_girl_rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="false" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="haml-rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="hpricot" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="jquery-rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="jquery-ui-rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="js-routes" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="kaminari" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="less-rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="libv8" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="meta_search" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mini_magick" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="minitest" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="minitest-colorize" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mocha" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mongrel" version="1.2.0.pre2" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="pg" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="3.2.6" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="russian" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="sass-rails" version="3.2.3" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="simple_form" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="simplecov" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="false" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="state_machine" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="tconsole" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="therubyracer" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="turn" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="twitter-bootstrap-rails" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="uglifier" version="1.0.3" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="unicorn" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="validates" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="webmock" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] tzinfo (v0.3.35, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/tzinfo-0.3.35)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mime-types (v1.21, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/mime-types-1.21)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] hike (v1.2.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/hike-1.2.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] i18n (v0.6.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/i18n-0.6.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack-test (v0.6.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/rack-test-0.6.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] arel (v3.0.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/arel-3.0.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] erubis (v2.7.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/erubis-2.7.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] journey (v1.0.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/journey-1.0.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] thor (v0.17.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/thor-0.17.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bundler (v1.2.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/bundler-1.2.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v3.2.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/activesupport-3.2.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] multi_json (v1.6.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/multi_json-1.6.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack-cache (v1.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/rack-cache-1.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mail (v2.4.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/mail-2.4.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] json (v1.7.7, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/json-1.7.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] treetop (v1.4.12, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/treetop-1.4.12)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionpack (v3.2.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] tilt (v1.3.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/tilt-1.3.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack (v1.4.5, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/rack-1.4.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] builder (v3.0.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/builder-3.0.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activerecord (v3.2.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/activerecord-3.2.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activeresource (v3.2.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/activeresource-3.2.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activemodel (v3.2.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/activemodel-3.2.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] polyglot (v0.3.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/polyglot-0.3.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack-ssl (v1.3.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/rack-ssl-1.3.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sprockets (v2.1.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/sprockets-2.1.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rdoc (v3.12.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/rdoc-3.12.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] railties (v3.2.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/railties-3.2.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionmailer (v3.2.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/actionmailer-3.2.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v10.0.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362@global/gems/rake-10.0.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v3.2.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/rails-3.2.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] validates (v0.0.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/validates-0.0.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] meta_search (v1.1.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/meta_search-1.1.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] therubyracer (v0.11.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/therubyracer-0.11.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] factory_girl_rails (v4.1.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/factory_girl_rails-4.1.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] js-routes (v0.8.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/js-routes-0.8.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] twitter-bootstrap-rails (v2.2.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/twitter-bootstrap-rails-2.2.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bcrypt-ruby (v3.0.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/bcrypt-ruby-3.0.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] haml-rails (v0.3.5, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/haml-rails-0.3.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mocha (v0.12.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/mocha-0.12.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] tconsole (v1.1.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/tconsole-1.1.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] uglifier (v1.3.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/uglifier-1.3.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] libv8 (v3.11.8.13, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/libv8-3.11.8.13-x86_64-linux)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mongrel (v1.2.0.pre2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/mongrel-1.2.0.pre2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] client_side_validations (v3.1.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/client_side_validations-3.1.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ckeditor (v3.7.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/ckeditor-3.7.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] state_machine (v1.1.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/state_machine-1.1.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] chosen-rails (v0.9.8.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/chosen-rails-0.9.8.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] russian (v0.6.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/russian-0.6.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] execjs (v1.4.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/execjs-1.4.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] airbrake (v3.1.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/airbrake-3.1.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] coffee-rails (v3.2.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/coffee-rails-3.2.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] breadcrumbs_on_rails (v2.2.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/breadcrumbs_on_rails-2.2.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mini_magick (v3.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/mini_magick-3.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] less-rails (v2.2.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/less-rails-2.2.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] jquery-rails (v2.2.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/jquery-rails-2.2.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] pg (v0.14.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/pg-0.14.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] hpricot (v0.8.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/hpricot-0.8.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] minitest-colorize (v0.0.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/minitest-colorize-0.0.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] carrierwave (v0.5.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/carrierwave-0.5.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] jquery-ui-rails (v2.0.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/jquery-ui-rails-2.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sass-rails (v3.2.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/sass-rails-3.2.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] turn (v0.9.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/turn-0.9.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] unicorn (v4.3.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/unicorn-4.3.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] simple_form (v2.0.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/simple_form-2.0.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] simplecov (v0.6.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/simplecov-0.6.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] webmock (v1.8.10, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/webmock-1.8.10)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] minitest (v2.12.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/minitest-2.12.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] kaminari (v0.14.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/kaminari-0.14.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] cocoon (v1.0.22, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/cocoon-1.0.22)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] less (v2.2.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/less-2.2.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] girl_friday (v0.10.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/girl_friday-0.10.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] coffee-script-source (v1.4.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/coffee-script-source-1.4.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] raindrops (v0.10.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/raindrops-0.10.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] addressable (v2.3.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/addressable-2.3.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] daemons (v1.0.10, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/daemons-1.0.10)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ansi (v1.4.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/ansi-1.4.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] commonjs (v0.2.6, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/commonjs-0.2.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] polyamorous (v0.5.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/polyamorous-0.5.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] jquery-rails (v2.2.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/jquery-rails-2.2.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] minitest (v2.11.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/minitest-2.11.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] kgio (v2.7.4, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/kgio-2.7.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] orm_adapter (v0.4.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/orm_adapter-0.4.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ref (v1.0.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/ref-1.0.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] crack (v0.3.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/crack-0.3.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] gem_plugin (v0.2.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/gem_plugin-0.2.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] coffee-script (v2.2.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/coffee-script-2.2.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] sass (v3.2.5, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/sass-3.2.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] connection_pool (v0.9.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/connection_pool-0.9.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] simplecov-html (v0.5.3, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/simplecov-html-0.5.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] subexec (v0.2.2, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/subexec-0.2.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] libv8 (v3.11.8.13, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/libv8-3.11.8.13-x86_64-linux)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] haml (v3.1.7, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/haml-3.1.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] term-ansicolor (v1.0.7, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/term-ansicolor-1.0.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] factory_girl (v4.1.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/factory_girl-4.1.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] execjs (v1.4.0, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/execjs-1.4.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] metaclass (v0.0.1, /home/ivin/.rvm/gems/ruby-1.9.3-p362/gems/metaclass-0.0.1)" level="application" />
+  </component>
+</module>
+

@@ -1,0 +1,532 @@
+!!! Strict
+%html{:lang => "en", "xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
+  %body
+    #snip
+      #niz     #wrap
+      #container
+        #header
+          .logo
+            %a{:href => "./main_files/main.html"}
+              %img{:alt => "Frisbee - интернет зоомагазин магазин для животных", :height => "117", :src => "./main_files/new_logo.gif", :title => "Фризби", :width => "265"}/
+          %ul.header_new_menu
+            %li
+              %a{:href => "http://www.fristore.ru/news/"} Новости
+            %li
+              %a{:href => "http://www.fristore.ru/action/"} Акции
+            %li
+              %a{:href => "http://www.fristore.ru/discounts/"} Скидки
+            %li
+              %a{:href => "http://www.fristore.ru/payment/"} Оплата
+            %li
+              %a{:href => "http://www.fristore.ru/delivery/"} Доставка
+            %li
+              %a{:href => "http://www.fristore.ru/contact/"} Контакты
+            %li
+              %a{:href => "http://www.fristore.ru/help/"} Помощь
+          .back-call
+            %span#call_phone_1 +7 (495) 225-45-59
+            %a#link-callback{:href => "http://www.fristore.ru/#"} Заказать обратный звонок
+            #call_back
+              .close
+                %img{:alt => "Закрыть", :src => "./main_files/close.gif", :title => "Закрыть"}/
+              .error               %form#callback-form{:action => "", :method => "post"}
+                %table.b-block-table
+                  %tbody
+                    %tr
+                      %td.label ФИО:
+                      %td.text
+                        %input{:border => "0", :name => "name", :src => "/bitrix/images/fileman/htmledit2/php.gif", :type => "text", :value => ""}/
+                    %tr
+                      %td.label Телефон:
+                      %td.text
+                        %input{:border => "0", :name => "phone", :src => "/bitrix/images/fileman/htmledit2/php.gif", :type => "text", :value => ""}/
+                    %tr
+                      %td.label Время для звонка:
+                      %td.text
+                        %input{:border => "0", :name => "time", :src => "/bitrix/images/fileman/htmledit2/php.gif", :type => "text", :value => ""}/
+                    /
+                      <tr>
+                      <td class="label">
+                      <span style='font-size:10px; line-height: 10px'>Обратите внимание, что мы сможем перезвонить Вам только в часы работы колл-центра</span>
+                      </td>
+                      <td>
+                      <div class="send"><input type="submit" value="" /></div>
+                      </td>
+                      </tr>
+                %span{:style => "font-size:10px; line-height: 10px; width: 190px; float: left; text-align: right;"} Обратите внимание, что мы сможем перезвонить Вам только в часы работы колл-центра
+                .send
+                  %input{:type => "submit", :value => ""}/
+          / noindex
+          %a#link-auth{:href => "http://www.fristore.ru/#", :rel => "nofollow"} Войти
+          / /noindex
+          .work_time_block
+            %strong пн-вс 10:00 – 20:00
+          %noindex
+            #basket-small
+              .new_basket_block{:onclick => "location.href='/personal/basket/'", :style => "cursor: pointer;"}
+                .nb_price
+                  %strong 0
+                  руб.
+                .nb_cart
+                  %span
+                    %big 0
+                    шт.
+          %noindex
+            #title-search.form-search
+              %form{:action => "http://www.fristore.ru/search/"}
+                %input#title-search-input.text{:autocomplete => "off", :maxlength => "50", :name => "q", :size => "40", :type => "text", :value => ""}>/
+                \&nbsp;
+                %input.send{:name => "s", :type => "submit", :value => " "}/
+            :javascript
+              var jsControl = new JCTitleSearch({
+              	//'WAIT_IMAGE': '/bitrix/themes/.default/images/wait.gif',
+              	'AJAX_PAGE' : '/bitrix/urlrewrite.php?SEF_APPLICATION_CUR_PAGE_URL=%2F',
+              	'CONTAINER_ID': 'title-search',
+              	'INPUT_ID': 'title-search-input',
+              	'MIN_QUERY_LEN': 2
+              });
+        / NAVIGATION
+        #navigation.png_bg
+          %ul
+            %li.top.first-n
+              %big
+                %a{:href => "http://www.fristore.ru/brands/"} Бренды
+              %em.hover_li
+                / 
+            / <li class="top  first-n ">
+            %li.top
+              %big
+                %a{:href => "http://www.fristore.ru/catalog/sobaki/"} Собаки
+              %em.hover_li
+                / 
+              #a1.submenu.double_column{:style => "display: none;"}
+                .submenu_inner
+                  %ul{:style => "height: 207px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/aksessuary-1490/"} Аксессуары
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/zabota-o-zdorove/"} Забота о здоровье
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/igrushki-1467/"} Игрушки
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/kletki-i-volery/"} Клетки и вольеры
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/knigi/"} Книги
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/korma/"} Корма
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/lakomstva/"} Лакомства
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/legaki-i-domiki-1479/"} Лежаки и домики
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/odegda/"} Одежда
+                      %em.link_sh
+                        / 
+                  %ul{:style => "height: 207px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/perenoski/"} Переноски
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/podderganie-chistoty-1496/"} Поддержание чистоты
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/posuda/"} Посуда
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/rasprodaga-1634/"} Распродажа
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/tovary-po-uhodu/"} Товары по уходу
+                      %em.link_sh
+                        / 
+                .submenu_bottom_round
+                  .sbr_center
+                    .sbr_left
+                    .sbr_right
+            / <li class="top ">
+            %li.top
+              %big
+                %a{:href => "http://www.fristore.ru/catalog/koshki/"} Кошки
+              %em.hover_li
+                / 
+              #a2.submenu.double_column{:style => "display: none;"}
+                .submenu_inner
+                  %ul{:style => "height: 221px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/aksessuary-1518/"} Аксессуары
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/zabota-o-zdorove-1413/"} Забота о здоровье
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/igrushki/"} Игрушки
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/kletki-i-volery-1589/"} Клетки и вольеры
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/knigi-1611/"} Книги
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/kogtetochki-i-igrovye-kompleksy/"} Когтеточки и игровые комплексы
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/korma-1432/"} Корма
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/lakomstva-1421/"} Лакомства
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/legaki-i-domiki/"} Лежаки и домики
+                      %em.link_sh
+                        / 
+                  %ul{:style => "height: 221px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/perenoski-1445/"} Переноски
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/podderganie-chistoty-1459/"} Поддержание чистоты
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/posuda-1486/"} Посуда
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/rasprodaga/"} Распродажа
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/tovary-po-uhodu-1426/"} Товары по уходу
+                      %em.link_sh
+                        / 
+                .submenu_bottom_round
+                  .sbr_center
+                    .sbr_left
+                    .sbr_right
+            / <li class="top ">
+            %li.top
+              %big
+                %a{:href => "http://www.fristore.ru/catalog/gryzuny/"} Грызуны
+              %em.hover_li
+                / 
+              #a3.submenu.double_column{:style => "display: none;"}
+                .submenu_inner
+                  %ul{:style => "height: 207px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/aksessuary-dlya-kletok/"} Аксессуары для клеток
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/amunitsiya/"} Амуниция
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/zabota-o-zdorove-1568/"} Забота о здоровье
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/igrushki-1567/"} Игрушки
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/kletki-i-volery-1621/"} Клетки и вольеры
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/knigi-1615/"} Книги
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/korma-1458/"} Корма
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/lakomstva-1526/"} Лакомства
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/perenoski-1511/"} Переноски
+                      %em.link_sh
+                        / 
+                  %ul{:style => "height: 207px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/podderganie-chistoty-1559/"} Поддержание чистоты
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/posuda-1485/"} Посуда
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/rasprodaga-1635/"} Распродажа
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/seno/"} Сено
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/tovary-po-uhodu-1424/"} Товары по уходу
+                      %em.link_sh
+                        / 
+                .submenu_bottom_round
+                  .sbr_center
+                    .sbr_left
+                    .sbr_right
+            / <li class="top ">
+            %li.top
+              %big
+                %a{:href => "http://www.fristore.ru/catalog/ptitsy/"} Птицы
+              %em.hover_li
+                / 
+              #a4.submenu.double_column{:style => "display: none;"}
+                .submenu_inner
+                  %ul{:style => "height: 207px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/aksessuary-1474/"} Аксессуары
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/volery/"} Вольеры
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/domiki-1711/"} Домики
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/zabota-o-zdorove-1416/"} Забота о здоровье
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/igrushki-1473/"} Игрушки
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/kletki-i-podstavki/"} Клетки и подставки
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/korma-1562/"} Корма
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/lakomstva-1521/"} Лакомства
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/napolniteli-1569/"} Наполнители
+                      %em.link_sh
+                        / 
+                  %ul{:style => "height: 207px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/podderganie-chistoty-1644/"} Поддержание чистоты
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/posuda-1709/"} Посуда
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/rasprodaga-1675/"} Распродажа
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/tovary-po-uhodu-1708/"} Товары по уходу
+                      %em.link_sh
+                        / 
+                .submenu_bottom_round
+                  .sbr_center
+                    .sbr_left
+                    .sbr_right
+            / <li class="top ">
+            %li.top
+              %big
+                %a{:href => "http://www.fristore.ru/catalog/ryby/"} Рыбы
+              %em.hover_li
+                / 
+              #a5.submenu{:style => "display: none;"}
+                .submenu_inner
+                  %ul{:style => "height: 207px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/akvariumy/"} Аквариумы
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/aksessuary-dlya-akvariuma/"} Аксессуары для аквариума
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/dekoratsiya/"} Декорация
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/knigi-1614/"} Книги
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/korma-1564/"} Корма
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/lekarstva/"} Лекарства
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/podderganie-chistoty/"} Поддержание чистоты
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/rasprodaga-1733/"} Распродажа
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/tumby/"} Тумбы
+                      %em.link_sh
+                        / 
+                .submenu_bottom_round
+                  .sbr_center
+                    .sbr_left
+                    .sbr_right
+            / <li class="top ">
+            %li.top
+              %big
+                %a{:href => "http://www.fristore.ru/catalog/reptilii/"} Рептилии
+              %em.hover_li
+                / 
+              #a6.submenu{:style => "display: none;"}
+                .submenu_inner
+                  %ul{:style => "height: 184px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/aksessuary-dlya-terrariumov/"} Аксессуары для террариумов
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/dekoratsiya-1646/"} Декорация
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/zabota-o-zdorove-1681/"} Забота о здоровье
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/korma-1578/"} Корма
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/napolniteli-1602/"} Наполнители
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/perenoski-1648/"} Переноски
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/terrariumy/"} Террариумы
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/tumby-1637/"} Тумбы
+                      %em.link_sh
+                        / 
+                .submenu_bottom_round
+                  .sbr_center
+                    .sbr_left
+                    .sbr_right
+            / <li class="top  last-n ">
+            %li.top.last-n
+              %big
+                %a{:href => "http://www.fristore.ru/catalog/aktsii/"} АКЦИИ
+              %em.hover_li
+                / 
+              #a7.submenu{:style => "display: none;"}
+                .submenu_inner
+                  %ul{:style => "height: 92px;"}
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/gryzuny-1788/"} Грызуны
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/koshki-1778/"} Кошки
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/ptitsy-1786/"} Птицы
+                      %em.link_sh
+                        / 
+                    %li
+                      %a{:href => "http://www.fristore.ru/catalog/sobaki-1775/"} Собаки
+                      %em.link_sh
+                        / 
+                .submenu_bottom_round
+                  .sbr_center
+                    .sbr_left
+                    .sbr_right
+        / NAVIGATION
+        .content-inner-list
+          .content-inner-list
+            .content-main
+              / BILLBOARD
+              %script{:src => "./main_files/banner_v0.js", :type => "text/javascript"}
+              :javascript
+                $(function(){
+                	billboard = new iesa.Banner(document.getElementById("main_banner"));
+                	billboard.init();
+                });
+              #main_banner.billboard
+                .config /**/ 		Object({ 			show_play_button: false, 			show_navigation: true, 			autostart: true, 			delay: 9000, 			frames: 				[ 				 					{ src: '/upload/iblock/787/7877f2e3c2f75f8f04d339b018715d5a.jpg', href: '/news/teper_dostupna_usluga_podpiska_na_zakazy/' }, 				 					{ src: '/upload/iblock/e2e/e2eea66a22d926d1f15920b0175c52ee.gif', href: '/brands/Fish4Dog/' }, 				 					{ src: '/upload/iblock/8e3/8e3977b2303a9991ca496c3ea7f8f19a.jpg', href: '/brands/Happy-Cat-%28Heppi-Ket%29/' }, 				 					{ src: '/upload/iblock/180/18018cddc73cc0c94783b5aed6836993.jpg', href: '/brands/trainer/' }, 				 				] 		}); 		/**/
+                .banner_content
+                  .frame{:style => "background-image: url(http://www.fristore.ru/upload/iblock/787/7877f2e3c2f75f8f04d339b018715d5a.jpg);"}
+                  .overframe{:style => "background-image: url(http://www.fristore.ru/upload/iblock/787/7877f2e3c2f75f8f04d339b018715d5a.jpg); display: none;"}
+                .control_overlay{:style => "display: block;"}
+                  .num_wrapper
+                    %ul
+                      %li.active 1
+                      %li 2
+                      %li 3
+                      %li 4
+                    %i.c.t.l
+                      %i
+                    %i.c.t.r
+                      %i
+                    %i.c.b.l
+                      %i
+                    %i.c.b.r
+                      %i
+              .pay-banners
+                %a{:href => "http://www.fristore.ru/discounts/"}
+                  %img{:src => "./main_files/banner1.png"}/
+                %a{:href => "http://www.fristore.ru/payment/"}
+                  %img{:src => "./main_files/banner2.png"}/
+                %a{:href => "http://www.fristore.ru/payment/"}
+                  %img{:src => "./main_files/banner3.png"}/

@@ -1,0 +1,212 @@
+.droplinetabs{
+    background: url(../nbg.png) no-repeat center;
+    background-size: 100% 95%;
+    position: relative;
+    width:1090px;
+    height:80px;
+    margin: 0 auto;
+    float:none;
+    z-index:900;
+    color:#424c50;
+    font-size:15px;
+}
+
+.droplinetabs ul.menu{
+    height:100%;
+    width: 100%;
+    position:relative;
+}
+
+
+.droplinetabs ul.menu li{
+    display:inline;
+}
+
+.droplinetabs ul.menu li.nav-menu {
+    float:left;
+    position: relative;
+    height:54px;
+    padding: 25px 15px 0 15px;
+    background: url(../nav_divider.png) no-repeat right center;
+    background-size: 1% 83%;
+}
+
+
+
+.droplinetabs ul.menu .nav.nav-sale {
+    float:left;
+    height:59px;
+    width:183px;
+    position: relative;
+    background: url(../sale_type.png) no-repeat center top;
+    background-size: 100% 100%;
+    left: -5px;
+    z-index:930;
+    margin: -1px 0 0 0;
+}
+
+.droplinetabs ul.menu .nav-menu.login {
+    float: right;
+    background: url(../nav_divider.png) no-repeat left center;
+    padding: 0 15px 0 15px;
+    background-size: 1% 83%;
+    height: 79px;
+}
+
+
+.droplinetabs ul.menu .nav-menu.login .login {
+    background: transparent url(../login.png) no-repeat left top;
+    background-size: 98% 47%;
+    margin-right: -53px;
+    margin-top: 20px;
+    width: 119px;
+    padding: 7px 0 0 59px;
+    height: inherit;
+}
+
+
+
+.droplinetabs ul.menu a{
+    text-decoration: none;
+    color:#424c50;
+    font-size:22px;
+    font-weight:600;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 6px #9b7878;
+}
+
+
+
+
+.droplinetabs .nav-submenu{
+    z-index:500 !important;
+    width:1069px;
+    height:auto;
+    top:85px;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    margin: -10px auto;
+    background: #e5e9ea;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height:auto;
+    padding:20px 10px 10px 10px;
+
+    opacity:0.9;
+    background: -moz-linear-gradient(top, #c8c5c4, #c5abae); /* Firefox 3.6+ */
+    /* Chrome 1-9, Safari 4-5 */
+    background: -webkit-gradient(linear, left top, left bottom,
+                color-stop(0%,#c8c5c4), color-stop(100%,#c5abae));
+    /* Chrome 10+, Safari 5.1+ */
+    background: -webkit-linear-gradient(top, #c8c5c4, #c5abae);
+    background: -o-linear-gradient(top, #c8c5c4, #c5abae); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #c8c5c4, #c5abae); /* IE10 */
+    background: linear-gradient(top, #c8c5c4, #c5abae); /* CSS3 */
+
+    border:1px solid #958383;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 17px #888282;
+
+}
+
+
+.droplinetabs ul.menu li .nav-submenu ul{
+    position:relative;
+    display:inline;
+    float:left;
+    margin-bottom:20px;
+}
+
+
+.droplinetabs ul.menu li .nav-submenu ul li{
+    display:block;
+    line-height: 25px;
+    width: 75%;
+    color:#000000;
+    padding: 0 0 0 5px;
+}
+
+
+.droplinetabs ul.menu li .nav-submenu ul li.sub:hover,
+.droplinetabs ul.menu li .nav-submenu ul li.sub:focus {
+    border:1px solid #896f72;
+    border-radius:5px;
+    line-height: 23px;
+    background:#ffffff;
+}
+
+
+.droplinetabs ul.menu li .nav-submenu ul li a{
+    color:#000000;
+    font-size:13px;
+    text-decoration: none;
+    font-weight:normal;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    text-shadow: 0 0 0 transparent;
+}
+
+
+
+
+.droplinetabs ul.menu li .nav-submenu ul li a span{
+    position: absolute;
+    margin: 22px 0 0 18px;
+}
+
+
+.droplinetabs ul.menu li .nav-submenu ul li img{
+    width:70px;
+    height:70px;
+    border: 1px solid #d5cccc;
+}
+
+
+.droplinetabs ul.menu li .nav-submenu a.go-to{
+    color:#000000;
+    letter-spacing: 1px;
+    margin-left:50%;
+    text-shadow:0 0 0 transparent;
+    font-size:13px;
+    text-decoration:underline;
+}
+
+
+.droplinetabs ul.menu li .nav-submenu ul li.title{
+    background:transparent url(../cat.png) no-repeat left top;
+    margin: 0 0 15px 0;
+    padding: 4px 0 0 24px;
+    border-bottom:1px dotted #896f72;
+}
+
+
+.droplinetabs ul.menu li .nav-submenu ul li.title.cat{
+    background:transparent url(../cat.png) no-repeat left center;
+}
+
+.droplinetabs ul.menu li .nav-submenu ul li.title.dog{
+    background:transparent url(../dog.png) no-repeat left center;
+}
+
+.droplinetabs ul.menu li .nav-submenu ul li.title.smallpet{
+    background:transparent url(../smallpet.png) no-repeat left center;
+}
+
+.droplinetabs ul.menu li .nav-submenu ul li.title.bird{
+    background:transparent url(../bird.png) no-repeat left center;
+    padding-left: 31px;
+}
+
+.droplinetabs ul.menu li .nav-submenu ul li.title.fish{
+    background:transparent url(../fish.png) no-repeat left center;
+    padding-left: 28px;
+}
+
+.droplinetabs ul.menu li .nav-submenu ul li.title.reptile{
+    background:transparent url(../reptile.png) no-repeat left center;
+    padding-left: 37px;
+}

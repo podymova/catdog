@@ -1,0 +1,142 @@
+#droplinetabs1.droplinetabs
+  %ul.menu
+    %li.nav.nav-menu.nav-sale
+      = link_to '', '#'
+    %li.nav.nav-menu
+      = link_to 'Категории', '#'
+      .nav-submenu
+        %ul
+          %li.title.cat
+            %span= 'Кошки'
+          %li.sub= link_to 'Link 1', '#'
+          %li.sub= link_to 'Link 2', '#'
+          %li.sub= link_to 'Link 3', '#'
+          %li.sub= link_to 'Link 4', '#'
+          %li.sub= link_to 'Link 5', '#'
+          %li.sub= link_to 'Link 6', '#'
+        %ul
+          %li.title.dog= 'Собаки'
+          %li.sub= link_to 'Link 1', '#'
+          %li.sub= link_to 'Link 2', '#'
+          %li.sub= link_to 'Link 3', '#'
+          %li.sub= link_to 'Link 4', '#'
+          %li.sub= link_to 'Link 5', '#'
+          %li.sub= link_to 'Link 6', '#'
+          %li.sub= link_to 'Link 7', '#'
+          %li.sub= link_to 'Link 8', '#'
+          %li.sub= link_to 'Link 9', '#'
+          %li.sub= link_to 'Link 10', '#'
+          %li.sub= link_to 'Link 11', '#'
+          %li.sub= link_to 'Link 12', '#'
+        %ul
+          %li.title.smallpet= 'Грызуны'
+          %li.sub= link_to 'Link 1', '#'
+          %li.sub= link_to 'Link 2', '#'
+          %li.sub= link_to 'Link 3', '#'
+          %li.sub= link_to 'Link 4', '#'
+          %li.sub= link_to 'Link 5', '#'
+          %li.sub= link_to 'Link 6', '#'
+          %li.sub= link_to 'Link 7', '#'
+          %li.sub= link_to 'Link 8', '#'
+          %li.sub= link_to 'Link 9', '#'
+        %ul
+          %li.title.bird= 'Птицы'
+          %li.sub= link_to 'Link 1', '#'
+          %li.sub= link_to 'Link 2', '#'
+          %li.sub= link_to 'Link 3', '#'
+          %li.sub= link_to 'Link 4', '#'
+          %li.sub= link_to 'Link 5', '#'
+          %li.sub= link_to 'Link 6', '#'
+        %ul
+          %li.title.fish= 'Рыбы'
+          %li.sub= link_to 'Link 1', '#'
+          %li.sub= link_to 'Link 2', '#'
+
+        %ul
+          %li.title.reptile= 'Рептилии'
+          %li.sub= link_to 'Link 1', '#'
+          %li.sub= link_to 'Link 2', '#'
+          %li.sub= link_to 'Link 3', '#'
+          %li.sub= link_to 'Link 4', '#'
+          %li.sub= link_to 'Link 5', '#'
+          %li.sub= link_to 'Link 6', '#'
+          %li.sub= link_to 'Link 7', '#'
+          %li.sub= link_to 'Link 8', '#'
+    %li.nav.nav-menu
+      = link_to 'Магазины', '#'
+      .nav-submenu
+        %ul
+          %li.sub= link_to 'Адрес 1', '#'
+          %li.sub= link_to 'Адрес 2', '#'
+          %li.sub= link_to 'Адрес 3', '#'
+        %ul
+          %li.sub= link_to 'Адрес 4', '#'
+          %li.sub= link_to 'Адрес 5', '#'
+          %li.sub= link_to 'Адрес 6', '#'
+        %ul
+          %li.sub= link_to 'Адрес 7', '#'
+          %li.sub= link_to 'Адрес 8', '#'
+          %li.sub= link_to 'Адрес 9', '#'
+          %li.sub= link_to 'Адрес 10', '#'
+        = link_to 'Все магазины', '#', :class => 'go-to'
+    %li.nav.nav-menu
+      = link_to 'Бренды', '#'
+      .nav-submenu
+        %ul
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand1.gif')
+              %span= "Fresh Step"
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand2.gif')
+              %span= "Royal Canin"
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand3.jpg')
+              %span= "Teddy Pets"
+        %ul
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand4.jpg')
+              %span= "Mr. Gee"
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand5.jpg')
+              %span= "Teddy Pets"
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand6.jpg')
+              %span= "Catsan"
+        %ul
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand7.gif')
+              %span= "Orijen"
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand8.jpg')
+              %span= "Vitakraft"
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand9.gif')
+              %span= "Berkley"
+        %ul
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand10.jpg')
+              %span= "Now natural"
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand11.jpg')
+              %span= "Ceva"
+          %li.sub
+            = link_to('#') do
+              = image_tag('brand/brand12.jpg')
+              %span= "Иванко"
+        %br
+        = link_to 'Все бренды', '#', :class => 'go-to'
+
+    %li.nav.nav-menu.login
+      .login
+        = link_to 'Вход', '#'

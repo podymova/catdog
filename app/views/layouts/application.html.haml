@@ -1,0 +1,46 @@
+!!!
+%html
+  %head
+    %title
+      = 'Сеть магазинов зоотоваров - Котопес'
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    #wrap
+      #header
+        #header1
+          = render 'layouts/share/header'
+
+          = render 'layouts/share/navigation_top'
+
+
+      #carusel
+        .carusel1
+          = image_tag('carusel1.jpg')
+
+
+      #page-container
+        #container
+          = render 'layouts/share/content'
+
+
+    #footer{:align => 'center'}
+      #footer-content
+        #footer1
+      #footer-bottom
+        .copyright
+          %br
+          =  'Copyright © 2013 Котопес - сеть зоомагазинов'
+
+
+
+
+
+
+
+
+    = yield
+
+
+
